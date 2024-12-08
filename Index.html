@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Valorant Skin Bundles</title>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 50px;text-decoration: dotted;">Valorant Skin Bundles</h1>
+        <input type="text" id="searchInput" placeholder="Search bundles..." onkeyup="searchMenu()" >
+    </header>
+    <main>
+        <div class="bundle-container" id="bundleContainer"></div>
+    </main>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <img id="modalImage" src="" alt="">
+            <p id="modalDescription"></p>
+            <p id="modalPrice"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
